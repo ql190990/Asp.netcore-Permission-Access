@@ -1,0 +1,28 @@
+[
+  {
+    "RoleName": "SuperAdmin",
+    "Description": "Admin can manage users, but not read data",
+    "Permissions": [ "UserRead", "UserChange", "RoleRead", "RoleChange", "Read", "Create", "Update", "Delete", "ADM", "ADMINISTRATOR", "AI" ]
+  },
+  {
+    "RoleName": "PR1_Admin",
+    "Description": "Admin can manage users, but not read data",
+    "Permissions": [ "PR1_READ", "PR1_CREATE", "PR1_UPDATE", "PR1_DELETE" ]
+  },
+  {
+    "RoleName": "PR1Staff",
+    "Description": "Staff can only read data",
+    "Permissions": [ "PR1_READ" ]
+  },
+  {
+    "RoleName": "PR1Manager",
+    "Description": "Managers can read/write the data",
+    "Permissions": [ "PR1_READ", "PR1_CREATE", "PR1_UPDATE" ]
+  },
+  {
+    "RoleName": "staff",
+    "Description": "Managers can read/write the data",
+    "Permissions": [ "Read"]
+  }
+
+]

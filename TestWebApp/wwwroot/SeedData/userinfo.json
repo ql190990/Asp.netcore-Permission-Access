@@ -1,0 +1,20 @@
+[
+  {
+    "Email": "Staff@g1.com",
+    "RolesCommaDelimited": "PR1Staff",
+    "ModulesCommaDelimited": "ADM",
+    "DataInfo": {}
+  },
+  {
+    "Email": "Manager@g1.com",
+    "RolesCommaDelimited": "PR1Manager",
+    "ModulesCommaDelimited": "ADM",
+    "DataInfo": {}
+  },
+  {
+    "Email": "Admin@g1.com",
+    "RolesCommaDelimited": "PR1Manager,Admin,SuperAdmin",
+    "ModulesCommaDelimited": "",
+    "DataInfo": {}
+  }
+]
